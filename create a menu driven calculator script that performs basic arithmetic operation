@@ -1,0 +1,17 @@
+echo"simpleCalculator"
+echo"enter Num1:"
+read Num1
+echo"enter Num2: "
+read Num2
+echo"Enter operation(+,-,*,/)"
+read operation
+case $operation in
++) echo "$((num1+num2))
+  ;;
+-) echo "$((num1-num2))
+  ;;
+*) echo "$((num1*num2))
+  ;;
+/) echo "$((num1/num2))
+  ;;
+esac
