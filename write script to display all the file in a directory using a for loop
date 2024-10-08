@@ -1,0 +1,8 @@
+echo"enter the directory path:"
+read directory
+for file in"$directory"/*
+do
+  if[-f "$file"]; then
+    echo"$(base name"$file")"
+fi
+done
